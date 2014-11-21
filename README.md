@@ -9,10 +9,12 @@ WDEV Framework
 
 
 ## Documentation
-CSS : http://redgoose.me/projects/wdevFramework/framework-css.html
-Javascript : not service
+
+* CSS : http://redgoose.me/projects/wdevFramework/framework-css.html
+* Javascript : not service
 
 ## Setup
+
 `<head/>`에 아래와 같이 css를 불러옵니다.
 
 ```
