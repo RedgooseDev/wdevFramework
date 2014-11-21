@@ -107,12 +107,13 @@
 			<li>부분적으로 사용려면 아래 본문중에 html,scss소스를 참고하면 된다.</li>
 			<li>다운로드 링크에 있는 소스는 <u>소스코드가 업데이트되면서 내용이 변경될 가능성이 있기 때문에</u> 다운로드 후 작업계정에 업로드하거나 일부 소스를 복사해서 사용하는것을 권장한다.</li>
 		</ul>
-		<div class="example ar-text-center notitle">
-			<a href="/img_up/shop_pds/wdev/src_css/wdev_framework.89dc.scss" class="ar-button ar-blue">SCSS 다운로드</a>
+		<div class="example wd-text-center notitle">
+			<a href="./src/wdev_framework.scss" class="wd-button wd-blue">SCSS 다운로드</a>
+			<a href="./src/wdev_framework.css" class="wd-button wd-blue">CSS 다운로드(min)</a>
 		</div>
 		<h2>SCSS소스코드?</h2>
 		<ul>
-			<li>관리자[디자인관리 > 고급 디자인 관리 > CSS 파일관리]에서 SCSS가 지원되기 때문에 가이드에 SCSS위주로 작성했다.</li>
+			<li> 때문에 가이드에 SCSS위주로 작성했다.</li>
 			<li>CSS가이드에 사용되는 소스는 대부분 SCSS로 제공된다.</li>
 		</ul>
 		<h2>SCSS to CSS 변환서비스</h2>
@@ -168,7 +169,7 @@
 				<li>눈에띄는 문단을 사용하거나 <code>&lt;small></code>, <code>&lt;strong></code>, <code>&lt;em></code>엘리먼트들을 사용하여 단어를 강조할 수 있다.</li>
 			</ul>
 			<div class="example">
-				<p class="ar-text-lead">
+				<p class="wd-text-lead">
 					새야 새야 파랑새야 녹두 밭에 앉지마라.<br/>
 					녹두 꽃이 떨어지면 청포 장수 울고간다.
 				</p>
@@ -179,7 +180,7 @@
 				</p>
 			</div>
 <pre class="html">
-&lt;p class="ar-text-lead">새야 새야 파랑새야 녹두 밭에 앉지마라.&lt;/p>
+&lt;p class="wd-text-lead">새야 새야 파랑새야 녹두 밭에 앉지마라.&lt;/p>
 &lt;p>지방마다 다양한 내용의 노래로 전해지고 있으며...&lt;/p>
 </pre>
 		</section>
@@ -205,15 +206,15 @@
 				<li><code>&lt;div></code>, <code>&lt;p></code> 엘리먼트 뿐만아니라 <code>&lt;th></code>, <code>&lt;td></code>같은 표 엘리먼트에서도 사용가능하다.</li>
 			</ul>
 			<div class="example">
-				<p class="ar-text-left">왼쪽정렬</p>
-				<p class="ar-text-center">중앙정렬</p>
-				<p class="ar-text-right">오른쪽정렬</p>
+				<p class="wd-text-left">왼쪽정렬</p>
+				<p class="wd-text-center">중앙정렬</p>
+				<p class="wd-text-right">오른쪽정렬</p>
 			</div>
 			<h2>HTML소스</h2>
 <pre class="html">
-&lt;p class="ar-text-left">왼쪽정렬&lt;/p>
-&lt;p class="ar-text-center">중앙정렬&lt;/p>
-&lt;p class="ar-text-right">오른쪽정렬&lt;/p>
+&lt;p class="wd-text-left">왼쪽정렬&lt;/p>
+&lt;p class="wd-text-center">중앙정렬&lt;/p>
+&lt;p class="wd-text-right">오른쪽정렬&lt;/p>
 </pre>
 		</section>
 		<!-- // Align -->
@@ -224,25 +225,25 @@
 			<p><code>&lt;ul></code>, <code>&lt;ol></code> 엘리먼트를 사용하는 글 목록</p>
 			<div class="example">
 				<p><strong class="title">Basic</strong></p>
-				<ul class="ar-text-list">
+				<ul class="wd-text-list">
 					<li>숲 코끼리</li>
 					<li>몽골 게르빌루스쥐</li>
 					<li>파충류</li>
 				</ul>
 				<p><strong class="title">Number</strong></p>
-				<ul class="ar-text-list ar-number">
+				<ul class="wd-text-list wd-number">
 					<li>숲 코끼리</li>
 					<li>몽골 게르빌루스쥐</li>
 					<li>파충류</li>
 				</ul>
 				<p><strong class="title">Unstyled</strong></p>
-				<ul class="ar-text-list ar-unstyled">
+				<ul class="wd-text-list wd-unstyled">
 					<li>숲 코끼리</li>
 					<li>몽골 게르빌루스쥐</li>
 					<li>파충류</li>
 				</ul>
 				<p><strong class="title">Inline</strong></p>
-				<ul class="ar-text-list ar-inline">
+				<ul class="wd-text-list wd-inline">
 					<li>숲 코끼리</li>
 					<li>몽골 게르빌루스쥐</li>
 					<li>파충류</li>
@@ -251,25 +252,25 @@
 			<h2>HTML소스</h2>
 <pre class="html">
 &lt;!--Basic-->
-&lt;ul class="ar-text-list">
+&lt;ul class="wd-text-list">
 	&lt;li>숲 코끼리&lt;/li>
 	&lt;li>몽골 게르빌루스쥐&lt;/li>
 	&lt;li>파충류&lt;/li>
 &lt;/ul>
 &lt;!--Number-->
-&lt;ul class="ar-text-lis ar-number">
+&lt;ul class="wd-text-lis wd-number">
 	&lt;li>숲 코끼리&lt;/li>
 	&lt;li>몽골 게르빌루스쥐&lt;/li>
 	&lt;li>파충류&lt;/li>
 &lt;/ul>
 &lt;!--Unstyled-->
-&lt;ul class="ar-text-list ar-unstyled">
+&lt;ul class="wd-text-list wd-unstyled">
 	&lt;li>숲 코끼리&lt;/li>
 	&lt;li>몽골 게르빌루스쥐&lt;/li>
 	&lt;li>파충류&lt;/li>
 &lt;/ul>
 &lt;!--Inline-->
-&lt;ul class="ar-text-list ar-inline">
+&lt;ul class="wd-text-list wd-inline">
 	&lt;li>숲 코끼리&lt;/li>
 	&lt;li>몽골 게르빌루스쥐&lt;/li>
 	&lt;li>파충류&lt;/li>
@@ -284,7 +285,7 @@
 			<p><code>&lt;dl></code> 엘리먼트를 사용하여 [제목:내용]형식으로 구성할 수 있다.</p>
 			<div class="example">
 				<p><strong class="title">Basic</strong></p>
-				<dl class="ar-text-description">
+				<dl class="wd-text-description">
 					<dt>숲 코끼리</dt>
 					<dd>
 						이번 섹션에선, 잘 알려지지 않은 숲 코끼리에 관해 알아보겠습니다.<br/>
@@ -292,7 +293,7 @@
 					</dd>
 				</dl>
 				<p><strong class="title">Horizontal</strong></p>
-				<dl class="ar-text-description ar-horizontal">
+				<dl class="wd-text-description wd-horizontal">
 					<dt>숲 코끼리</dt>
 					<dd>
 						이번 섹션에선, 잘 알려지지 않은 숲 코끼리에 관해 알아보겠습니다.<br/>
@@ -303,7 +304,7 @@
 			<h2>HTML소스</h2>
 <pre class="html">
 &lt;!--Basic-->
-&lt;dl class="ar-text-description">
+&lt;dl class="wd-text-description">
 	&lt;dt>숲 코끼리&lt;/dt>
 	&lt;dd>
 		이번 섹션에선, 잘 알려지지 않은 숲 코끼리에 관해 알아보겠습니다.&lt;br/>
@@ -311,7 +312,7 @@
 	&lt;/dd>
 &lt;/dl>
 &lt;!--Horizontal-->
-&lt;dl class="ar-text-description ar-horizontal">
+&lt;dl class="wd-text-description wd-horizontal">
 	&lt;dt>숲 코끼리&lt;/dt>
 	&lt;dd>
 		이번 섹션에선, 잘 알려지지 않은 숲 코끼리에 관해 알아보겠습니다.&lt;br/>
@@ -337,7 +338,7 @@
 				</blockquote>
 				<br />
 				<p><strong class="title">Align Right</strong></p>
-				<blockquote class="ar-right">
+				<blockquote class="wd-right">
 					<p>
 						이번 섹션에선, 잘 알려지지 않은 숲 코끼리에 관해 알아보겠습니다.<br/>
 						숲 코끼리는 나무에 살지는 않고 나무들 사이에 그 서식지를 이루고 있습니다.
@@ -357,7 +358,7 @@
 &lt;/blockquote>
 
 &lt;!-- Align Right -->
-&lt;blockquote class="ar-right">
+&lt;blockquote class="wd-right">
 	&lt;p>
 		이번 섹션에선, 잘 알려지지 않은 숲 코끼리에 관해 알아보겠습니다.&lt;br/>
 		숲 코끼리는 나무에 살지는 않고 나무들 사이에 그 서식지를 이루고 있습니다.
@@ -389,13 +390,13 @@
 
 	<!-- Grid -->
 	<style>
-	.ar-grid.ex-grid_style > div {
+	.wd-grid.ex-grid_style > div {
 		background-color: #eee;
 		border: 1px solid #999;
 		text-align: center;
 		padding: 5px 0;
 	}
-	.ar-grid.ex-grid_style2 > div > div {
+	.wd-grid.ex-grid_style2 > div > div {
 		background-color: #eee;
 		border: 1px solid #999;
 		text-align: center;
@@ -421,86 +422,86 @@
 			<h1>기본예제</h1>
 			<h2>12 Columns</h2>
 			<div class="example">
-				<div class="ar-grid ex-grid_style">
-					<div class="ar-col-1">col</div>
-					<div class="ar-col-1">col</div>
-					<div class="ar-col-1">col</div>
-					<div class="ar-col-1">col</div>
-					<div class="ar-col-1">col</div>
-					<div class="ar-col-1">col</div>
-					<div class="ar-col-1">col</div>
-					<div class="ar-col-1">col</div>
-					<div class="ar-col-1">col</div>
-					<div class="ar-col-1">col</div>
-					<div class="ar-col-1">col</div>
-					<div class="ar-col-1">col</div>
+				<div class="wd-grid ex-grid_style">
+					<div class="wd-col-1">col</div>
+					<div class="wd-col-1">col</div>
+					<div class="wd-col-1">col</div>
+					<div class="wd-col-1">col</div>
+					<div class="wd-col-1">col</div>
+					<div class="wd-col-1">col</div>
+					<div class="wd-col-1">col</div>
+					<div class="wd-col-1">col</div>
+					<div class="wd-col-1">col</div>
+					<div class="wd-col-1">col</div>
+					<div class="wd-col-1">col</div>
+					<div class="wd-col-1">col</div>
 				</div>
 			</div>
 <pre class="html">
-&lt;div class="ar-grid">
-	&lt;div class="ar-col-1">col&lt;/div>
-	&lt;div class="ar-col-1">col&lt;/div>
-	&lt;div class="ar-col-1">col&lt;/div>
-	&lt;div class="ar-col-1">col&lt;/div>
-	&lt;div class="ar-col-1">col&lt;/div>
-	&lt;div class="ar-col-1">col&lt;/div>
-	&lt;div class="ar-col-1">col&lt;/div>
-	&lt;div class="ar-col-1">col&lt;/div>
-	&lt;div class="ar-col-1">col&lt;/div>
-	&lt;div class="ar-col-1">col&lt;/div>
-	&lt;div class="ar-col-1">col&lt;/div>
-	&lt;div class="ar-col-1">col&lt;/div>
+&lt;div class="wd-grid">
+	&lt;div class="wd-col-1">col&lt;/div>
+	&lt;div class="wd-col-1">col&lt;/div>
+	&lt;div class="wd-col-1">col&lt;/div>
+	&lt;div class="wd-col-1">col&lt;/div>
+	&lt;div class="wd-col-1">col&lt;/div>
+	&lt;div class="wd-col-1">col&lt;/div>
+	&lt;div class="wd-col-1">col&lt;/div>
+	&lt;div class="wd-col-1">col&lt;/div>
+	&lt;div class="wd-col-1">col&lt;/div>
+	&lt;div class="wd-col-1">col&lt;/div>
+	&lt;div class="wd-col-1">col&lt;/div>
+	&lt;div class="wd-col-1">col&lt;/div>
 &lt;/div>
 </pre>
 			<h2>6:6 Columns</h2>
 			<div class="example">
-				<div class="ar-grid ex-grid_style">
-					<div class="ar-col-6">col</div>
-					<div class="ar-col-6">col</div>
+				<div class="wd-grid ex-grid_style">
+					<div class="wd-col-6">col</div>
+					<div class="wd-col-6">col</div>
 				</div>
 			</div>
 <pre class="html">
-&lt;div class="ar-grid">
-	&lt;div class="ar-col-6">col&lt;/div>
-	&lt;div class="ar-col-6">col&lt;/div>
+&lt;div class="wd-grid">
+	&lt;div class="wd-col-6">col&lt;/div>
+	&lt;div class="wd-col-6">col&lt;/div>
 &lt;/div>
 </pre>
 			<h2>4:4:4 Columns</h2>
 			<div class="example">
-				<div class="ar-grid ex-grid_style">
-					<div class="ar-col-4">col</div>
-					<div class="ar-col-4">col</div>
-					<div class="ar-col-4">col</div>
+				<div class="wd-grid ex-grid_style">
+					<div class="wd-col-4">col</div>
+					<div class="wd-col-4">col</div>
+					<div class="wd-col-4">col</div>
 				</div>
 			</div>
 <pre class="html">
-&lt;div class="ar-grid">
-	&lt;div class="ar-col-4">col&lt;/div>
-	&lt;div class="ar-col-4">col&lt;/div>
-	&lt;div class="ar-col-4">col&lt;/div>
+&lt;div class="wd-grid">
+	&lt;div class="wd-col-4">col&lt;/div>
+	&lt;div class="wd-col-4">col&lt;/div>
+	&lt;div class="wd-col-4">col&lt;/div>
 &lt;/div>
 </pre>
 			<h2>중첩그리드</h2>
 			<div class="example">
-				<div class="ar-grid ex-grid_style">
-					<div class="ar-col-2">col</div>
-					<div class="ar-col-10">
-						<div class="ar-grid ex-grid_style">
-							<div class="ar-col-4">children</div>
-							<div class="ar-col-4">children</div>
-							<div class="ar-col-4">children</div>
+				<div class="wd-grid ex-grid_style">
+					<div class="wd-col-2">col</div>
+					<div class="wd-col-10">
+						<div class="wd-grid ex-grid_style">
+							<div class="wd-col-4">children</div>
+							<div class="wd-col-4">children</div>
+							<div class="wd-col-4">children</div>
 						</div>
 					</div>
 				</div>
 			</div>
 <pre class="html">
-&lt;div class="ar-grid">
-	&lt;div class="ar-col-2">col&lt;/div>
-	&lt;div class="ar-col-10">
-		&lt;div class="ar-grid">
-			&lt;div class="ar-col-4">children&lt;/div>
-			&lt;div class="ar-col-4">children&lt;/div>
-			&lt;div class="ar-col-4">children&lt;/div>
+&lt;div class="wd-grid">
+	&lt;div class="wd-col-2">col&lt;/div>
+	&lt;div class="wd-col-10">
+		&lt;div class="wd-grid">
+			&lt;div class="wd-col-4">children&lt;/div>
+			&lt;div class="wd-col-4">children&lt;/div>
+			&lt;div class="wd-col-4">children&lt;/div>
 		&lt;/div>
 	&lt;/div>
 &lt;/div>
@@ -517,7 +518,7 @@
 				<li>제공된 css소스에서는 css미디어쿼리 <code>@media (min-width: 768px) {}</code>를 사용하지만 미디어쿼리에 분리된 파일을 사용한다면 소스를 각각 분리해서 넣어줘야한다.</li>
 			</ul>
 			<h2>제한 사이즈와 기기에 대한 클래스 명 도표</h2>
-			<table class="ar-table ar-center ar-border">
+			<table class="wd-table wd-center wd-border">
 				<thead>
 					<tr>
 						<th scope="col" width=""></th>
@@ -528,30 +529,30 @@
 				</thead>
 				<tbody>
 					<tr>
-						<th class="ar-text-left">제한사이즈(단위:px)</th>
+						<th class="wd-text-left">제한사이즈(단위:px)</th>
 						<td>auto</td>
 						<td>768~</td>
 						<td>1024~</td>
 					</tr>
 					<tr>
-						<th class="ar-text-left">class이름</th>
-						<td>.ar-col-*</td>
-						<td>.ar-col-md-*</td>
-						<td>.ar-col-lg-*</td>
+						<th class="wd-text-left">class이름</th>
+						<td>.wd-col-*</td>
+						<td>.wd-col-md-*</td>
+						<td>.wd-col-lg-*</td>
 					</tr>
 				</tbody>
 			</table>
 			<h2>태블릿 4:8, 데스크탑 8:4</h2>
 			<div class="example">
-				<div class="ar-grid ex-grid_style">
-					<div class="ar-col-md-4 ar-col-lg-8">col</div>
-					<div class="ar-col-md-8 ar-col-lg-4">col</div>
+				<div class="wd-grid ex-grid_style">
+					<div class="wd-col-md-4 wd-col-lg-8">col</div>
+					<div class="wd-col-md-8 wd-col-lg-4">col</div>
 				</div>
 			</div>
 <pre class="html">
-&lt;div class="ar-grid">
-	&lt;div class="ar-col-md-4 ar-col-lg-8">col&lt;/div>
-	&lt;div class="ar-col-md-8 ar-col-lg-4">col&lt;/div>
+&lt;div class="wd-grid">
+	&lt;div class="wd-col-md-4 wd-col-lg-8">col&lt;/div>
+	&lt;div class="wd-col-md-8 wd-col-lg-4">col&lt;/div>
 &lt;/div>
 </pre>
 		</section>
@@ -565,28 +566,28 @@
 			</p>
 			<h2>4:4:4 Columns</h2>
 			<div class="example">
-				<div class="ar-grid ex-grid_style2 ar-margin">
-					<div class="ar-col-md-4">
+				<div class="wd-grid ex-grid_style2 wd-margin">
+					<div class="wd-col-md-4">
 						<div>col</div>
 					</div>
-					<div class="ar-col-md-4">
+					<div class="wd-col-md-4">
 						<div>col</div>
 					</div>
-					<div class="ar-col-md-4">
+					<div class="wd-col-md-4">
 						<div>col</div>
 					</div>
 				</div>
 			</div>
 			<h2>HTML소스</h2>
 <pre class="html">
-&lt;div class="ar-grid ar-margin">
-	&lt;div class="ar-col-md-4">
+&lt;div class="wd-grid wd-margin">
+	&lt;div class="wd-col-md-4">
 		&lt;div>col&lt;/div>
 	&lt;/div>
-	&lt;div class="ar-col-md-4">
+	&lt;div class="wd-col-md-4">
 		&lt;div>col&lt;/div>
 	&lt;/div>
-	&lt;div class="ar-col-md-4">
+	&lt;div class="wd-col-md-4">
 		&lt;div>col&lt;/div>
 	&lt;/div>
 &lt;/div>
@@ -610,7 +611,7 @@
 				</li>
 			</ul>
 			<div class="example">
-				<table class="ar-table">
+				<table class="wd-table">
 					<caption>멸종위기 야생 동식물 통계표</caption>
 					<thead>
 						<tr>
@@ -648,7 +649,7 @@
 			</div>
 			<h2>HTML소스</h2>
 <pre class="html">
-&lt;table class="ar-table">
+&lt;table class="wd-table">
 	...
 &lt;/table>
 </pre>
@@ -663,11 +664,11 @@
 				<li>표에있는 텍스트를 모두 한쪽방향으로 정렬한다.</li>
 				<li>
 					개별적인 셀의 텍스트를 정렬하려면 <a href="#TypographyTextAlign">TypographyTextAlign</a>을 이용한다.<br/>
-					<i class="ex">&lt;td class="ar-text-right">right text&lt;td/></i>
+					<i class="ex">&lt;td class="wd-text-right">right text&lt;td/></i>
 				</li>
 			</ul>
 			<div class="example">
-				<table class="ar-table ar-right">
+				<table class="wd-table wd-right">
 					<caption>멸종위기 야생 동식물 통계표</caption>
 					<thead>
 						<tr>
@@ -696,12 +697,12 @@
 			<h2>HTML소스</h2>
 <pre class="html">
 &lt;!-- 중앙정렬 -->
-&lt;table class="ar-table ar-center">
+&lt;table class="wd-table wd-center">
 	...
 &lt;/table>
 
 &lt;!-- 오른쪽정렬 -->
-&lt;table class="ar-table ar-right">
+&lt;table class="wd-table wd-right">
 	...
 &lt;/table>
 </pre>
@@ -713,7 +714,7 @@
 			<h1>Bordered Style</h1>
 			<p>모든선을 표시하는 차트 스타일</p>
 			<div class="example">
-				<table class="ar-table ar-border">
+				<table class="wd-table wd-border">
 					<caption>멸종위기 야생 동식물 통계표</caption>
 					<thead>
 						<tr>
@@ -741,7 +742,7 @@
 			</div>
 			<h2>HTML소스</h2>
 <pre class="html">
-&lt;table class="ar-table ar-border">
+&lt;table class="wd-table wd-border">
 	...
 &lt;/table>
 </pre>
@@ -753,7 +754,7 @@
 			<h1>Striped Style</h1>
 			<p>홀수번호 라인으로 옅은 배경색으로 영역을 강조한다.</p>
 			<div class="example">
-				<table class="ar-table ar-striped">
+				<table class="wd-table wd-striped">
 					<caption>멸종위기 야생 동식물 통계표</caption>
 					<thead>
 						<tr>
@@ -787,7 +788,7 @@
 			</div>
 			<h2>HTML소스</h2>
 <pre class="html">
-&lt;table class="ar-table ar-striped">
+&lt;table class="wd-table wd-striped">
 	...
 &lt;/table>
 </pre>
@@ -799,7 +800,7 @@
 			<h1>Hover Style</h1>
 			<p>롤오버하는 줄에 옅은 배경색으로 영역을 강조한다.</p>
 			<div class="example">
-				<table class="ar-table ar-hover">
+				<table class="wd-table wd-hover">
 					<caption>멸종위기 야생 동식물 통계표</caption>
 					<thead>
 						<tr>
@@ -827,7 +828,7 @@
 			</div>
 			<h2>HTML소스</h2>
 <pre class="html">
-&lt;table class="ar-table ar-hover">
+&lt;table class="wd-table wd-hover">
 	...
 &lt;/table>
 </pre>
@@ -839,9 +840,9 @@
 			<h1>Responsive Tables</h1>
 			<p>반응형 테이블. 사이즈가 작아지면 가로스크롤이 나온다.</p>
 			<div class="example">
-				<div class="ar-table-responsive">
-					<div class="ar-wrap">
-						<table class="ar-table">
+				<div class="wd-table-responsive">
+					<div class="wd-wrap">
+						<table class="wd-table">
 							<thead>
 								<tr>
 									<th>&nbsp;</th>
@@ -876,9 +877,9 @@
 			</div>
 			<h2>HTML소스</h2>
 <pre class="html">
-&lt;div class="ar-table-responsive">
-	&lt;div class="ar-wrap">
-		&lt;table class="ar-table">
+&lt;div class="wd-table-responsive">
+	&lt;div class="wd-wrap">
+		&lt;table class="wd-table">
 			...
 		&lt;/table>
 	&lt;/div>
@@ -892,13 +893,13 @@
 			<h1>Table cell - Not Mobile</h1>
 			<p>모바일 사이즈에서 원하는 셀을 표시하지 않는다.</p>
 			<div class="example">
-				<table class="ar-table">
+				<table class="wd-table">
 					<caption>멸종위기 야생 동식물 통계표</caption>
 					<thead>
 						<tr>
 							<th>&nbsp;</th>
 							<th>1996</th>
-							<th class="ar-not_mobile">1998</th>
+							<th class="wd-not_mobile">1998</th>
 							<th>2005</th>
 						</tr>
 					</thead>
@@ -906,13 +907,13 @@
 						<tr>
 							<th>지정 종수 계</th>
 							<td>203</td>
-							<td class="ar-not_mobile">194</td>
+							<td class="wd-not_mobile">194</td>
 							<td>221</td>
 						</tr>
 						<tr>
 							<th>포유류</th>
 							<td>-</td>
-							<td class="ar-not_mobile">17</td>
+							<td class="wd-not_mobile">17</td>
 							<td>22</td>
 						</tr>
 					</tbody>
@@ -922,7 +923,7 @@
 <pre class="html">
 &lt;tr>
 	&lt;td>Apple&lt;/td>
-	&lt;td class="ar-not_mobile">Mango&lt;/td>
+	&lt;td class="wd-not_mobile">Mango&lt;/td>
 	&lt;td>Banana&lt;/td>
 &lt;/tr>
 </pre>
@@ -943,14 +944,14 @@
 			<p>
 				기본적인 형태의 버튼.<br/>
 				아래 추가적인 속성들은 전부 기본클래스 이름을 같이 붙여줘야한다.<br/>
-				<i class="ex">class="ar-button ar-red"</i>
+				<i class="ex">class="wd-button wd-red"</i>
 			</p>
-			<div class="example ar-text-center">
-				<button type="button" class="ar-button">Basic Button</button>
+			<div class="example wd-text-center">
+				<button type="button" class="wd-button">Basic Button</button>
 			</div>
 			<h2>HTML소스</h2>
 <pre class="html">
-&lt;button class="ar-button">Button&lt;/button>
+&lt;button class="wd-button">Button&lt;/button>
 </pre>
 		</section>
 		<!-- // Basic -->
@@ -963,15 +964,15 @@
 				a, button, input[type=submit]이 일반적으로 사용되는 버튼 엘리먼트들이지만 다른 엘리먼트에서도 사용할 수 있다. 하지만 button 엘리먼트 사용을 권장한다.
 			</p>
 			<div class="example">
-				<button type="button" class="ar-button">button 엘리먼트</button>
-				<a href="#" class="ar-button">a 엘리먼트</a>
-				<input type="submit" class="ar-button" value="input[type=submit]" />
+				<button type="button" class="wd-button">button 엘리먼트</button>
+				<a href="#" class="wd-button">a 엘리먼트</a>
+				<input type="submit" class="wd-button" value="input[type=submit]" />
 			</div>
 			<h2>HTML소스</h2>
 <pre class="html">
-&lt;button type="button" class="ar-button">button 엘리먼트&lt;/button>
-&lt;a href=#"" class="ar-button">a 엘리먼트&lt;/a>
-&lt;input type="submit" class="ar-button" value="input[type=submit]" />
+&lt;button type="button" class="wd-button">button 엘리먼트&lt;/button>
+&lt;a href=#"" class="wd-button">a 엘리먼트&lt;/a>
+&lt;input type="submit" class="wd-button" value="input[type=submit]" />
 </pre>
 		</section>
 		<!-- // Elements -->
@@ -981,11 +982,11 @@
 			<h1>Block</h1>
 			<p>가로 100% 사이즈의 버튼을 만듭니다.</p>
 			<div class="example">
-				<button type="button" class="ar-button ar-block">button</button>
+				<button type="button" class="wd-button wd-block">button</button>
 			</div>
 			<h2>HTML소스</h2>
 <pre class="html">
-&lt;button type="button" class="ar-button ar-block">button&lt;/button>
+&lt;button type="button" class="wd-button wd-block">button&lt;/button>
 </pre>
 		</section>
 		<!-- // Block -->
@@ -995,23 +996,23 @@
 			<h1>Colors</h1>
 			<p>버튼의 성격에 따라서 버튼색을 표현할 수 있다.</p>
 			<div class="example">
-				<button type="button" class="ar-button">Default</button>
-				<button type="button" class="ar-button ar-red">Red</button>
-				<button type="button" class="ar-button ar-green">Green</button>
-				<button type="button" class="ar-button ar-blue">Blue</button>
-				<button type="button" class="ar-button ar-yellow">Yellow</button>
-				<button type="button" class="ar-button ar-skyblue">Sky Blue</button>
-				<button type="button" class="ar-button ar-transparent">Transparent</button>
+				<button type="button" class="wd-button">Default</button>
+				<button type="button" class="wd-button wd-red">Red</button>
+				<button type="button" class="wd-button wd-green">Green</button>
+				<button type="button" class="wd-button wd-blue">Blue</button>
+				<button type="button" class="wd-button wd-yellow">Yellow</button>
+				<button type="button" class="wd-button wd-skyblue">Sky Blue</button>
+				<button type="button" class="wd-button wd-transparent">Transparent</button>
 			</div>
 			<h2>HTML소스</h2>
 <pre class="html">
-&lt;button type="button" class="ar-button">Default&lt;/button>
-&lt;button type="button" class="ar-button ar-red">Red&lt;/button>
-&lt;button type="button" class="ar-button ar-green">Green&lt;/button>
-&lt;button type="button" class="ar-button ar-blue">Blue&lt;/button>
-&lt;button type="button" class="ar-button ar-yellow">Yellow&lt;/button>
-&lt;button type="button" class="ar-button ar-skyblue">Sky Blue&lt;/button>
-&lt;button type="button" class="ar-button ar-transparent">Transparent&lt;/button>
+&lt;button type="button" class="wd-button">Default&lt;/button>
+&lt;button type="button" class="wd-button wd-red">Red&lt;/button>
+&lt;button type="button" class="wd-button wd-green">Green&lt;/button>
+&lt;button type="button" class="wd-button wd-blue">Blue&lt;/button>
+&lt;button type="button" class="wd-button wd-yellow">Yellow&lt;/button>
+&lt;button type="button" class="wd-button wd-skyblue">Sky Blue&lt;/button>
+&lt;button type="button" class="wd-button wd-transparent">Transparent&lt;/button>
 </pre>
 		</section>
 		<!-- // Color -->
@@ -1021,19 +1022,19 @@
 			<h1>Size</h1>
 			<p>버튼크기 세트</p>
 			<div class="example">
-				<button type="button" class="ar-button ar-exsmall">Extra Small (아주작은버튼)</button>
-				<button type="button" class="ar-button ar-small">Small (작은버튼)</button>
-				<button type="button" class="ar-button">Medium (보통)</button>
-				<button type="button" class="ar-button ar-large">Large (큰버튼)</button>
-				<button type="button" class="ar-button ar-exlarge">Extra Large (아주큰버튼)</button>
+				<button type="button" class="wd-button wd-exsmall">Extra Small (아주작은버튼)</button>
+				<button type="button" class="wd-button wd-small">Small (작은버튼)</button>
+				<button type="button" class="wd-button">Medium (보통)</button>
+				<button type="button" class="wd-button wd-large">Large (큰버튼)</button>
+				<button type="button" class="wd-button wd-exlarge">Extra Large (아주큰버튼)</button>
 			</div>
 			<h2>HTML소스</h2>
 <pre class="html">
-&lt;button type="button" class="ar-button ar-exsmall">Extra Small (아주작은버튼)&lt;/button>
-&lt;button type="button" class="ar-button ar-small">Small (작은버튼)&lt;/button>
-&lt;button type="button" class="ar-button">Medium (보통)&lt;/button>
-&lt;button type="button" class="ar-button ar-large">Large (큰버튼)&lt;/button>
-&lt;button type="button" class="ar-button ar-exlarge">Extra Large (아주큰버튼)&lt;/button>
+&lt;button type="button" class="wd-button wd-exsmall">Extra Small (아주작은버튼)&lt;/button>
+&lt;button type="button" class="wd-button wd-small">Small (작은버튼)&lt;/button>
+&lt;button type="button" class="wd-button">Medium (보통)&lt;/button>
+&lt;button type="button" class="wd-button wd-large">Large (큰버튼)&lt;/button>
+&lt;button type="button" class="wd-button wd-exlarge">Extra Large (아주큰버튼)&lt;/button>
 </pre>
 		</section>
 		<!-- // Size -->
@@ -1050,16 +1051,16 @@
 			<p>input[type=text], input[type=password], textarea, select 에서 사용되는 스타일</p>
 			<div class="example">
 				<p><strong class="title">input[type=text], input[type=password]</strong></p>
-				<input type="text" class="ar-form-text" placeholder="Enter Email" />
-				<input type="password" class="ar-form-text" placeholder="Password" />
+				<input type="text" class="wd-form-text" placeholder="Enter Email" />
+				<input type="password" class="wd-form-text" placeholder="Password" />
 				<br/>
 				<br/>
 				<p><strong class="title">textarea</strong></p>
-				<textarea class="ar-form-text" rows="3">text body</textarea>
+				<textarea class="wd-form-text" rows="3">text body</textarea>
 				<br/>
 				<br/>
 				<p><strong class="title">select</strong></p>
-				<select id="formSelect1" class="ar-form-text">
+				<select id="formSelect1" class="wd-form-text">
 					<option value="1">1</option>
 					<option value="2">2</option>
 					<option value="3">3</option>
@@ -1067,50 +1068,50 @@
 				<br/>
 				<br/>
 				<p><strong class="title">block</strong></p>
-				<input type="text" class="ar-form-text ar-block" placeholder="input block" />
+				<input type="text" class="wd-form-text wd-block" placeholder="input block" />
 				<br/>
 				<p><strong class="title">disabled</strong></p>
-				<input type="text" class="ar-form-text" placeholder="Enter Email" value="email address" disabled />
-				<select id="formSelect1" class="ar-form-text ar-block" disabled>
+				<input type="text" class="wd-form-text" placeholder="Enter Email" value="email address" disabled />
+				<select id="formSelect1" class="wd-form-text wd-block" disabled>
 					<option value="1">1</option>
 					<option value="2">2</option>
 				</select>
 				<br/>
 				<p><strong class="title">size</strong></p>
-				<input type="text" class="ar-form-text ar-large" placeholder="large" /><br/>
-				<input type="text" class="ar-form-text" placeholder="medium" /><br/>
-				<input type="text" class="ar-form-text ar-small" placeholder="small" />
+				<input type="text" class="wd-form-text wd-large" placeholder="large" /><br/>
+				<input type="text" class="wd-form-text" placeholder="medium" /><br/>
+				<input type="text" class="wd-form-text wd-small" placeholder="small" />
 			</div>
 			<h2>HTML소스</h2>
 <pre class="html">
 &lt;!-- input[type=text], input[type=password] -->
-&lt;input type="text" class="ar-form-text" placeholder="Enter Email" />
-&lt;input type="password" class="ar-form-text" placeholder="Password" />
+&lt;input type="text" class="wd-form-text" placeholder="Enter Email" />
+&lt;input type="password" class="wd-form-text" placeholder="Password" />
 
 &lt;!-- textarea -->
-&lt;textarea class="ar-form-text" rows="3">text body&lt;/textarea>
+&lt;textarea class="wd-form-text" rows="3">text body&lt;/textarea>
 
 &lt;!-- select -->
-&lt;select id="formSelect1" class="ar-form-text">
+&lt;select id="formSelect1" class="wd-form-text">
 	&lt;option value="1">1&lt;/option>
 	&lt;option value="2">2&lt;/option>
 	&lt;option value="3">3&lt;/option>
 &lt;/select>
 
 &lt;!-- block -->
-&lt;input type="text" class="ar-form-text ar-block" placeholder="input block" />
+&lt;input type="text" class="wd-form-text wd-block" placeholder="input block" />
 
 &lt;!-- disabled -->
-&lt;input type="text" class="ar-form-text" placeholder="Enter Email" value="email address" disabled />
-&lt;select id="formSelect1" class="ar-form-text ar-block" disabled>
+&lt;input type="text" class="wd-form-text" placeholder="Enter Email" value="email address" disabled />
+&lt;select id="formSelect1" class="wd-form-text wd-block" disabled>
 	&lt;option value="1">1&lt;/option>
 	&lt;option value="2">2&lt;/option>
 &lt;/select>
 
 &lt;!-- size -->
-&lt;input type="text" class="ar-form-text ar-large" placeholder="large" />
-&lt;input type="text" class="ar-form-text" placeholder="medium" />
-&lt;input type="text" class="ar-form-text ar-small" placeholder="small" />
+&lt;input type="text" class="wd-form-text wd-large" placeholder="large" />
+&lt;input type="text" class="wd-form-text" placeholder="medium" />
+&lt;input type="text" class="wd-form-text wd-small" placeholder="small" />
 </pre>
 		</section>
 		<!-- // Basic -->
@@ -1124,14 +1125,14 @@
 			</p>
 			<div class="example">
 				<p><strong class="title">inline checkbox</strong></p>
-				<div class="ar-form-check ar-inline">
+				<div class="wd-form-check wd-inline">
 					<label><input type="checkbox" name="formCheck" value="1" /> Checkbox#1</label>
 					<label><input type="checkbox" name="formCheck" value="2" /> 체크박스#2</label>
 					<label><input type="checkbox" name="formCheck" value="3" /> Checkbox#3</label>
 				</div>
 				<br/>
 				<p><strong class="title">block radio</strong></p>
-				<div class="ar-form-check ar-block">
+				<div class="wd-form-check wd-block">
 					<label><input type="radio" name="formCheck" value="1" /> Checkbox#1</label>
 					<label><input type="radio" name="formCheck" value="2" /> 체크박스#2</label>
 					<label><input type="radio" name="formCheck" value="3" /> Checkbox#3</label>
@@ -1140,14 +1141,14 @@
 			<h2>HTML소스</h2>
 <pre class="html">
 &lt;!-- inline -->
-&lt;div class="ar-form-check ar-inline">
+&lt;div class="wd-form-check wd-inline">
 	&lt;label>&lt;input type="checkbox" name="formCheck" value="1" /> Checkbox#1&lt;/label>
 	&lt;label>&lt;input type="checkbox" name="formCheck" value="2" /> 체크박스#2&lt;/label>
 	&lt;label>&lt;input type="checkbox" name="formCheck" value="3" /> Checkbox#3&lt;/label>
 &lt;/div>
 
 &lt;!-- block -->
-&lt;div class="ar-form-check ar-block">
+&lt;div class="wd-form-check wd-block">
 	&lt;label>&lt;input type="radio" name="formCheck" value="1" /> Checkbox#1&lt;/label>
 	&lt;label>&lt;input type="radio" name="formCheck" value="2" /> 체크박스#2&lt;/label>
 	&lt;label>&lt;input type="radio" name="formCheck" value="3" /> Checkbox#3&lt;/label>
@@ -1164,17 +1165,17 @@
 				권장하는 엘리먼트는 <code>&lt;span/&gt;</code>
 			</p>
 			<div class="example">
-				<div class="ar-form-group">
+				<div class="wd-form-group">
 					<label for="email98">Email</label>
-					<input type="text" id="email98" class="ar-form-text ar-block" placeholder="Enter Email" />
-					<span class="ar-form-help">이메일주소를 입력해주세요.</span>
-					<span class="ar-form-help ar-warning">이메일주소를 입력해주세요.</span>
+					<input type="text" id="email98" class="wd-form-text wd-block" placeholder="Enter Email" />
+					<span class="wd-form-help">이메일주소를 입력해주세요.</span>
+					<span class="wd-form-help wd-warning">이메일주소를 입력해주세요.</span>
 				</div>
 			</div>
 			<h2>HTML소스</h2>
 <pre class="html">
-&lt;span class="ar-form-help">이메일주소를 입력해주세요.&lt;/span>
-&lt;span class="ar-form-help ar-warning">경고 메세지용&lt;/span>
+&lt;span class="wd-form-help">이메일주소를 입력해주세요.&lt;/span>
+&lt;span class="wd-form-help wd-warning">경고 메세지용&lt;/span>
 </pre>
 		</section>
 		<!-- // Help Message -->
@@ -1184,16 +1185,16 @@
 			<h1>Group</h1>
 			<p>레이블과 입력폼을 조합하는 폼 그룹</p>
 			<div class="example">
-				<div class="ar-form-group">
+				<div class="wd-form-group">
 					<label for="email99">Email</label>
-					<input type="text" name="email99" id="email99" placeholder="Enter Email" class="ar-form-text ar-block" />
+					<input type="text" name="email99" id="email99" placeholder="Enter Email" class="wd-form-text wd-block" />
 				</div>
 			</div>
 			<h2>HTML소스</h2>
 <pre class="html">
-&lt;div class="ar-form-group">
+&lt;div class="wd-form-group">
 	&lt;label for="email">Email&lt;/label>
-	&lt;input type="text" name="email" id="email" placeholder="Enter Email" class="ar-form-text ar-block" />
+	&lt;input type="text" name="email" id="email" placeholder="Enter Email" class="wd-form-text wd-block" />
 &lt;/div>
 </pre>
 		</section>
@@ -1209,11 +1210,11 @@
 			<h1>Center content block</h1>
 			<p>블록속성의 엘리먼트를 중앙정렬한다.</p>
 			<div class="example">
-				<div style="width:100px;height:100px; background-color:orange;" class="ar-block-center">box</div>
+				<div style="width:100px;height:100px; background-color:orange;" class="wd-block-center">box</div>
 			</div>
 			<h2>HTML소스</h2>
 <pre class="html">
-&lt;div style="width:100px;height:100px; background-color:orange;" class="ar-block-center">box&lt;/div>
+&lt;div style="width:100px;height:100px; background-color:orange;" class="wd-block-center">box&lt;/div>
 </pre>
 		</section>
 		<!-- // Center content block -->
@@ -1236,7 +1237,7 @@
 				<br style="clear:both;" />
 				<br/>
 				<p><strong class="title">clearfix</strong></p>
-				<ul class="clearfix-example ar-cf">
+				<ul class="clearfix-example wd-cf">
 					<li>box</li>
 					<li>box</li>
 					<li>box</li>
@@ -1244,7 +1245,7 @@
 			</div>
 			<h2>HTML소스</h2>
 <pre class="html">
-&lt;div class="ar-cf">
+&lt;div class="wd-cf">
 	...
 &lt;/div>
 </pre>
@@ -1257,9 +1258,9 @@
 			<p>컨텐츠 요소를 감추거나 보여주는 기능을 하는 클래스 .blind클래스도 요소를 숨기는 기능 중 하나</p>
 			<h2>HTML소스</h2>
 <pre class="html">
-&lt;div class="ar-show">show&lt;/div>
-&lt;div class="ar-hide">hide&lt;/div>
-&lt;div class="ar-blind">blind&lt;/div>
+&lt;div class="wd-show">show&lt;/div>
+&lt;div class="wd-hide">hide&lt;/div>
+&lt;div class="wd-blind">blind&lt;/div>
 </pre>
 		</section>
 		<!-- // Show/Hide contents -->
@@ -1273,15 +1274,15 @@
 			<h1>Image</h1>
 			<p>간단하게 이미지를 꾸밀 수 있다. 모서리 라운드, 외곽선, 동그라미 형태로 바꿀 수 있다.</p>
 			<div class="example">
-				<img src="./img/thum_150x150.png" class="ar-img_round" alt="" />
-				<img src="./img/thum_150x150.png" class="ar-img_thumnail" alt="" />
-				<img src="./img/thum_150x150.png" class="ar-img_circle" alt="" />
+				<img src="./img/thum_150x150.png" class="wd-img_round" alt="" />
+				<img src="./img/thum_150x150.png" class="wd-img_thumnail" alt="" />
+				<img src="./img/thum_150x150.png" class="wd-img_circle" alt="" />
 			</div>
 			<h2>HTML소스</h2>
 <pre class="html">
-&lt;img src="thum_150x150.png" class="ar-img_round" alt="" />
-&lt;img src="thum_150x150.png" class="ar-img_thumnail" alt="" />
-&lt;img src="thum_150x150.png" class="ar-img_circle" alt="" />
+&lt;img src="thum_150x150.png" class="wd-img_round" alt="" />
+&lt;img src="thum_150x150.png" class="wd-img_thumnail" alt="" />
+&lt;img src="thum_150x150.png" class="wd-img_circle" alt="" />
 </pre>
 		</section>
 		<!-- // Image -->
