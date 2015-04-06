@@ -1,4 +1,4 @@
-body { font-family: "Malgun Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.428571429; color: #333; }
+body { font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.428571429; color: #333; }
 
 *, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
@@ -166,7 +166,7 @@ dl.wd-grid > dd { margin: 0; }
 /*
 	* Buttons
 */
-.wd-button { display: inline-block; *display: inline; *zoom: 1; margin: 0; padding: 9px 15px; font-family: sans-serif; font-size: 14px; line-height: 1.428571429; font-weight: normal; vertical-align: middle; text-align: center; cursor: pointer; white-space: nowrap; text-transform: none; background-color: #fff; border: none; user-select: none; }
+.wd-button { display: inline-block; *display: inline; *zoom: 1; margin: 0; padding: 9px 15px; font-size: 13px; line-height: 1.428571429; font-weight: normal; vertical-align: middle; text-align: center; cursor: pointer; white-space: nowrap; text-transform: none; background-color: #fff; border: none; user-select: none; }
 .wd-button:hover { text-decoration: none; }
 .wd-button:active { box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.2); }
 

@@ -1,4 +1,9 @@
 .sass-cache/
 tmp-*.*
 README.html
+<<<<<<< HEAD
 .idea
+=======
+.idea/
+*.map
+>>>>>>> origin/master

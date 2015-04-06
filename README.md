@@ -10,7 +10,7 @@ WDEV Framework
 
 ## Documentation
 
-* CSS : http://redgoose.me/projects/wdevFramework/framework-css.html
+* CSS : http://projects.redgoose.me/2014/wdevFramework/framework-css.html
 * Javascript : not service
 
 ## Setup
